@@ -32,8 +32,8 @@ print(ind)
 # 5 point
 a = emoj.groupby('Year')['Year'].count()
 print(a)
+# почему не работает ?
 plt.plot(emoj.groupby('Year')['Year'].count())
 plt.show()
-# почему не работает ?
 
 
